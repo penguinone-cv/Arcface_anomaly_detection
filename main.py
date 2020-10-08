@@ -25,6 +25,7 @@ def main():
         print("Set index to 0")
         print("")
         print("----------------------------------")
+        
     setting_csv_path = "./setting.csv"
     trainer = Trainer(setting_csv_path=setting_csv_path, index=index)
     # for data, label in trainer.data_loader.dataloaders["train"]:
